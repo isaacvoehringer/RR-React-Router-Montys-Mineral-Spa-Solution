@@ -1,4 +1,5 @@
-import { BrowserRouter as Router, Link, Route } from 'react-router-dom'
+import React from 'react';
+import { BrowserRouter as Router, Link, Route } from 'react-router-dom';
 
 import './App.css';
 
@@ -17,6 +18,8 @@ function App() {
       <Router>
         <header>
           <h1 className="title">Welcome to Monty's Mineral SPA</h1>
+          <p>hi its isaac</p>
+        
 
           <div className="navBar">
             <ul>
